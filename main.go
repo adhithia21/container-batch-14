@@ -13,7 +13,7 @@ func main() {
 			"code":     200,
 			"language": "go version go1.20.6",
 			"message":  "Server running on port 3000",
-			"version":  "v1.0",
+			"version":  "v2.2",
 		})
 	})
 	r.Run("0.0.0.0:3000")
