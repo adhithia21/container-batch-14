@@ -2,3 +2,11 @@ on:
   push:
     branches:
     - master
+
+jobs:
+  build-and-push:
+    name: build and push docker image
+    runs-on: ubuntu-22.04
+    steps:
+      - name: check list file
+        run: ls -la
